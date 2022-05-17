@@ -1,12 +1,14 @@
-<div class='country-card'>
-  <div class='country-title-box'>
-    <img class='country-flag' width='30' src='{{flags.svg}}' />
-    <h2 class='country-card-title'>{{name.official}}</h2>
+{{#each this}}
+  <div class='country-card'>
+    <div class='country-title-box'>
+      <img class='country-flag' width='50px' src='{{flags.svg}}' />
+      <h2 class='country-card-title'>{{name.official}}</h2>
+    </div>
+    <p class='country-capital'>Capital: <span>{{capital}}</span></p>
+    <p class='country-population'>Population: <span>{{population}}</span></p>
+    <p class='country-languages'>Languages:{{#each languages}}
+        <span class='languages-item'>{{this}}</span>
+      {{/each}}
+    </p>
   </div>
-  <p class='country-capital'>Capital: <span>{{capital}}</span></p>
-  <p class='country-population'>Population: <span>{{population}}</span></p>
-  <p class='country-languages'>Languages:{{#each languages}}
-      <span class='languages-item'>{{this}}</span>
-    {{/each}}
-  </p>
-</div>
+{{/each}}

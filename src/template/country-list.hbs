@@ -1,6 +1,8 @@
-<li>
-  <div class='country-title-box'>
-    <img class='country-flag' width='25' src='{{flags.svg}}' />
-    <h2 class='country-title'>{{name.official}}</h2>
-  </div>
-</li>
+{{#each this}}
+  <li>
+    <div class='country-title-box'>
+      <img class='country-flag' width='50px' src='{{flags.svg}}' />
+      <h2 class='country-title'>{{name.official}}</h2>
+    </div>
+  </li>
+{{/each}}
