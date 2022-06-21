@@ -1,22 +1,22 @@
 {
-  "name": "goit-js-hw-10",
+  "name": "country-search-fetch-api",
   "version": "1.1.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://AlenkaNahorna.github.io/goit-js-hw-10",
+  "homepage": "https://AlenkaNahorna.github.io/country-search-fetch-api",
   "scripts": {
     "dev": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /goit-js-hw-10/"
+    "build": "parcel build src/*.html --public-url /country-search-fetch-api/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AlenkaNahorna/goit-js-hw-10.git"
+    "url": "git+https://github.com/AlenkaNahorna/country-search-fetch-api.git"
   },
   "keywords": [],
   "author": "Alexander Repeta <alexander.repeta@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/AlenkaNahorna/goit-js-hw-10/issues"
+    "url": "https://github.com/AlenkaNahorna/country-search-fetch-api/issues"
   },
   "devDependencies": {
     "parcel-bundler": "^1.12.5",
